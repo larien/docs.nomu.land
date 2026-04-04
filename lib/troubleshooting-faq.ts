@@ -12,7 +12,7 @@ export const troubleshootingFaqItems = [
   {
     question: 'Why can I not add more trips or places?',
     answer:
-      'Free plans include limits on trips, places, and wishlist pins. Open Nomu pricing or account settings to see your current plan and upgrade options if you need more room.',
+      'Plans include limits on trips, places, wishlist pins, and (for import) a monthly quota. Open Nomu pricing or account settings to see your current plan and upgrade options if you need more room.',
   },
   {
     question: 'How does Nomu work offline?',

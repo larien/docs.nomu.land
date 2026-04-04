@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "index",
+    "getting-started",
+    "trips",
+    "explore-map",
+    "wishlist",
+    "account-billing",
+    "profile-settings",
+    "troubleshooting"
+  ]
+}

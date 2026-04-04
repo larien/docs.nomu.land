@@ -1,0 +1,10 @@
+{
+  "title": "Account & billing",
+  "pages": [
+    "magic-link-login",
+    "biometric-login",
+    "free-vs-founding-explorer",
+    "managing-your-plan",
+    "deleting-your-account"
+  ]
+}

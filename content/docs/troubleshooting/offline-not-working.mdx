@@ -1,0 +1,27 @@
+---
+title: The app isn't working offline
+description: What Nomu can do without signal and how the service worker cache behaves.
+updated: 2026-04-04
+---
+
+Nomu is built to be **useful offline after you have used it online**—cached shell, recent data, and a path back when the network returns. It is not a guarantee that every future feature works in airplane mode forever.
+
+## What usually works
+
+- Opening Nomu from a **home-screen PWA** or a tab you used recently.
+- Browsing **already loaded** trips and places that your device stored during an online session.
+
+## What might not
+
+- Brand-new searches that need live map tiles.
+- First-time install with **no prior successful online visit**—there is nothing to cache yet.
+
+## If you are stuck on an offline screen
+
+Toggle airplane mode off, load [app.nomu.land/home](https://app.nomu.land/home) or your main trips list once online, then try offline again. If you always see the offline fallback with no cached routes, reinstall the PWA after a clean online session.
+
+## Related pages
+
+- [Installing Nomu (PWA)](/getting-started/installing-nomu-pwa)
+- [Map isn't loading](/troubleshooting/map-not-loading)
+- [Reporting a bug](/troubleshooting/reporting-a-bug)

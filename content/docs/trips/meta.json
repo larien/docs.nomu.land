@@ -1,0 +1,12 @@
+{
+  "title": "Trips",
+  "pages": [
+    "creating-a-trip",
+    "adding-places",
+    "importing-bookings",
+    "notes-and-checklists",
+    "transportation-and-accommodation",
+    "sharing-a-trip",
+    "collaborative-trips"
+  ]
+}

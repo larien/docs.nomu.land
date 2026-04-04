@@ -1,0 +1,11 @@
+{
+  "title": "Troubleshooting",
+  "pages": [
+    "index",
+    "magic-link-not-received",
+    "map-not-loading",
+    "trip-place-limits",
+    "offline-not-working",
+    "reporting-a-bug"
+  ]
+}

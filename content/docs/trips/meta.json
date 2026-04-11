@@ -2,6 +2,7 @@
   "title": "Trips",
   "pages": [
     "creating-a-trip",
+    "navi-nudge",
     "adding-places",
     "importing-bookings",
     "notes-and-checklists",

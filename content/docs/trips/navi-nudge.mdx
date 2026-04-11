@@ -1,0 +1,28 @@
+---
+title: Navi Nudge
+description: Trip gap detection and preferences in Nomu
+---
+
+**Navi keeps an eye on your trips so nothing slips through.**
+
+Navi Nudge is Nomu’s optional readiness layer: it looks for common gaps (missing dates, overnight stays without accommodation, missing transport between stops, and simple inbound/outbound reminders) and surfaces them in the trip itinerary and on trip cards — without turning into a second checklist.
+
+## What you’ll see
+
+- **Trip detail**: Inline notices on the relevant days, with actions like **Add stay**, **Add transport**, or **Add dates** (for visits without dates, only **Add dates** is offered — no dismiss).
+- **Trip cards (home & trips list)**: A **vague** line such as “Needs attention” or “3 things need attention” when there are undismissed **high** severity gaps and the trip starts within your **card attention window** (defaults to 60 days). Cards never list individual gap titles.
+- **Place rail (mobile)**: A small **count badge** on stops with undismissed high-severity gaps (decorative; details stay on the itinerary).
+- **Trip overflow menu**: **Trip warnings** toggles Navi Nudge for that trip only.
+
+## Preferences
+
+Under **Settings → Preferences → Navi Nudge**:
+
+- **Enable Navi Nudge** — global master switch. When off, trips show no gap list.
+- **Card attention window** — days before trip start when list cards may show the vague attention line (default 60).
+
+Dismissals are stored **per user** in preferences, keyed by trip, so they survive reloads; collaborative trips keep dismissals per member.
+
+## Silent success
+
+When everything is resolved or dismissed, there is **no** “all clear” banner — the itinerary simply has no nudges, cards show no attention line, and rail counts disappear.

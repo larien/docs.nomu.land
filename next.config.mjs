@@ -12,6 +12,11 @@ const config = {
         destination: '/trips/navi-trips-gaps',
         permanent: true,
       },
+      {
+        source: '/getting-started/installing-nomu-pwa',
+        destination: '/getting-started/getting-the-app',
+        permanent: true,
+      },
     ];
   },
 };

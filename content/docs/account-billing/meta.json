@@ -1,7 +1,7 @@
 {
   "title": "Account & billing",
   "pages": [
-    "magic-link-login",
+    "sign-in-code",
     "biometric-login",
     "free-vs-founding-explorer",
     "managing-your-plan",

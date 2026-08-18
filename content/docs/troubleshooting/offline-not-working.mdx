@@ -1,27 +1,28 @@
 ---
-title: The app isn't working offline
-description: What Nomu can do without signal and how the service worker cache behaves.
-updated: 2026-04-04
+title: Using Nomu without signal
+description: What Nomu can do without a connection, and what still needs one.
+updated: 2026-08-17
 ---
 
-Nomu is built to be **useful offline after you have used it online**—cached shell, recent data, and a path back when the network returns. It is not a guarantee that every future feature works in airplane mode forever.
+Nomu is built to stay **useful offline after you have used it online**: what you have already opened is kept on your device, so a plane, a tunnel or a foreign SIM does not empty the app.
 
 ## What usually works
 
-- Opening Nomu from the **installed app** or a tab you used recently.
-- Browsing **already loaded** trips and places that your device stored during an online session.
+- Opening the app and reading trips and places you have already loaded.
+- Anything already on the device from your last online session.
 
-## What might not
+## What still needs a connection
 
-- Brand-new searches that need live map tiles.
-- First-time install with **no prior successful online visit**—there is nothing to cache yet.
+- Map tiles you have not looked at yet.
+- Searching for new places, which asks the server.
+- A **fresh install with no online session yet**—there is nothing stored to read.
 
-## If you are stuck on an offline screen
+## If the app looks empty offline
 
-Toggle airplane mode off, load [app.nomu.land/home](https://app.nomu.land/home) or your main trips list once online, then try offline again. If you always see the offline fallback with no cached routes, reinstall the app after a clean online session.
+Get back online for a moment and open your trips list once, so the app has something current to keep. Then try again without signal.
 
 ## Related pages
 
 - [Getting the Nomu app](/getting-started/getting-the-app)
-- [Map isn't loading](/troubleshooting/map-not-loading)
+- [The map isn't loading](/troubleshooting/map-not-loading)
 - [Reporting a bug](/troubleshooting/reporting-a-bug)

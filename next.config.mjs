@@ -17,6 +17,16 @@ const config = {
         destination: '/getting-started/getting-the-app',
         permanent: true,
       },
+      {
+        source: '/account-billing/magic-link-login',
+        destination: '/account-billing/sign-in-code',
+        permanent: true,
+      },
+      {
+        source: '/troubleshooting/magic-link-not-received',
+        destination: '/troubleshooting/sign-in-code-not-received',
+        permanent: true,
+      },
     ];
   },
 };
